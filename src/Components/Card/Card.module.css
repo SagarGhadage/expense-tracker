@@ -14,14 +14,22 @@
     background: #9B9B9B;
 
 }
-.btn{
+
+.btn {
     padding: 1px;
     height: 3rem;
     margin: 1%;
 }
-.balance{
+
+.balance {
     color: #9DFF5B;
-}.heading{color:white;margin: 1% 0 2% 0;}
-.expenses{
+}
+
+.heading {
+    color: white;
+    margin: 1% 0 2% 0;
+}
+
+.expenses {
     color: #FF9304;
 }
