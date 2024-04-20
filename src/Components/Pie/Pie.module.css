@@ -1,0 +1,7 @@
+.pie{
+    min-width: 250px;
+    min-height: 250px;
+    width: auto;
+    background-color: greenyellow;
+    margin-left: 6%;border-radius: 100%;    
+}
