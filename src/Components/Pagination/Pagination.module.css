@@ -1,0 +1,27 @@
+.pagination {
+    min-height: 350px;
+    min-width: 55%;
+    width: 100%;
+    margin: 0.5rem 0;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heading {
+    text-align: left;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32.17px;
+}
+
+.container {
+    padding: 1rem 0;
+    min-height: 350px;
+    min-width: 55%;
+    align-self: start;;
+    /* background-color: white; */
+    border-radius: 15px;
+}
