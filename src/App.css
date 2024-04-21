@@ -27,16 +27,15 @@
   color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.recharts-cartesian-axis{
+  /* display: none; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.recharts-xAxis,.recharts-cartesian-axis-line,.recharts-cartesian-axis-tick-line{display: none;}
+.recharts-yAxis ,.yAxis{
+  color: beige;
+  font-size: x-large;
+  background: #000;
 }
