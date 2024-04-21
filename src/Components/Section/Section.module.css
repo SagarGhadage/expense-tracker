@@ -5,7 +5,20 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 1.5rem;
-    height: 41vh;
+    min-height: 269px;
+    padding: 0.9% 1% 0.6% 0.9%;
     margin: auto;
     background-color: #626262;
+}
+.default {
+    display: flex;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 1.5rem;
+    /* min-height: 41vh; */
+    padding: 0 0.6% 0.6% 0.6%;
+    margin: auto;
+    background-color: transparent;
 }

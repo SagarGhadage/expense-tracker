@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Card() {
+function Modal() {
   return (
-    <div>Card</div>
+    <div>M</div>
   )
 }
 
-export default Card
+export default Modal

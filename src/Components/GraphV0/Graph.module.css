@@ -1,14 +1,17 @@
-.pagination {
-    min-height: 330px;
-    min-width: 55%;
-    width: 100%;
-    margin: 0.5rem 0;
+.Graph{
+    min-width: 250px;
+    min-height: 350px;
+    /* width: 100%; */
     background-color: white;
+    margin: 0.5rem 0;
+    margin-left: 6%;
     border-radius: 15px;
+    /* padding: 10%; */
 }
-
 .heading {
     text-align: left;
+    margin-left: 6%;
+
     color: white;
     font-family: Ubuntu;
     font-size: 28px;
@@ -19,9 +22,11 @@
 
 .container {
     padding: 1rem 0;
+    /* margin-left: 2%; */
     min-height: 350px;
-    min-width: 55%;
-    align-self: start;;
+    min-width: 44%;
+    align-self: start;
     /* background-color: white; */
     border-radius: 15px;
+    
 }

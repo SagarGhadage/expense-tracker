@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Card() {
+function Form() {
   return (
-    <div>Card</div>
+    <div>Form</div>
   )
 }
 
-export default Card
+export default Form
