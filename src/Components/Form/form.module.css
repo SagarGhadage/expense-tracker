@@ -22,17 +22,17 @@ select {
 }
 
 .btns {
-    min-width: 250px;
-    width: fit-content;
-    height: 51px;
-    display: flex;
+    /* min-width: 250px; */
+    /* width: fit-content; */
+    /* height: 51px;
+    display: flex; */
     /* justify-content: space-between;     */
-    top: 379px;
+    /* top: 379px;
 
     left: 791px;
     gap: 6%;
     display: flex;
     border-radius: 15px 0px 0px 0px;
-    opacity: 0px;
+    opacity: 0px; */
 
 }
