@@ -1,0 +1,37 @@
+input,
+select {
+    width: 223px;
+    height: 51px;
+    top: 347px;
+    left: 401px;
+    /* gap: 30px;
+     */
+    margin: 2%;
+    color: #919191;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+
+    padding: 6px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #FBFBFB;
+}
+
+.btns {
+    min-width: 200px;width: fit-content;
+    height: 51px;
+    display: flex;
+    /* justify-content: space-between;     */
+    top: 379px;
+
+    left: 791px;
+    gap: 6%;
+    display: flex;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+
+}
