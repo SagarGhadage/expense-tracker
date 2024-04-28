@@ -13,23 +13,36 @@ export const data = [
     },
     
 ];
-
+export const categories = [
+    "Entertainment",
+    "Travel",
+    "Food",
+    "Shopping",
+    "Grocery",
+    "Others",
+    "Bills"
+  ];
 export const dataMain = [
     {
-        id:0,
-        title:"",
-        amount:0,
+        id:9,
+        title:"Abc",
+        amount:10,
         catagory: "Food",
-        date:""
-        // value: 20,
+        date:"13/11/2024"
     },
     {
         catagory: "Entertainment",
-        value: 30
+        id:4,
+        title:"Xyz",
+        amount:90,
+        date:""
     }, 
     {
         catagory: "Travel",
-        value: 10,
+        id:7,
+        title:"AEr",
+        amount:10,
+        date:""
     },
     
 ];

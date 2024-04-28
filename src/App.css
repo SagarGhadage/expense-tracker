@@ -39,3 +39,9 @@
   font-size: x-large;
   background: #000;
 }
+.modal{
+  top: 50%;
+  left: 50%;
+  right: '';
+  
+}

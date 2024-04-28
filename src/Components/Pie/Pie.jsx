@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Pie.module.css'
-import { PieChart, Pie, Cell } from "recharts";
+import { PieChart, Pie, Cell, Legend, Tooltip } from "recharts";
 import Indicator from '../Indicator/Indicator';
 
 const COLORS = ["#FF9304", "#A000FF", "#FDE006","RED"];
@@ -36,7 +36,7 @@ function PieC({ children,data }) {
   
   return (
     <div className={style.pie}>
-      <PieChart width={300} height={300}>
+      <PieChart width={300} height={300} margin={100}>
         <Pie
           data={data}
           cx={145}
@@ -49,11 +49,13 @@ function PieC({ children,data }) {
           stroke='none'
         >
           {data.map((entry, index) => (
-            <Cell key={`cell-${entry.catagory}`} fill={COLORS[index % COLORS.length]} />
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
           ))}
         </Pie>
-      </PieChart>
-          <Indicator data={[{ text: "Food", color: "#A000FF" }, { text: "Inter", color: "#FF9304" }]}></Indicator>
+      <Tooltip />
+        <Legend className="chart-legend" />
+      </PieChart> 
+          {/* <Indicator data={[{ text: "Food", color: "#A000FF" }, { text: "Inter", color: "#FF9304" }]}></Indicator> */}
       {children}
     </div>
   )
