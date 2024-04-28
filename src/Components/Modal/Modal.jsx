@@ -1,9 +1,20 @@
 import React from 'react'
-
-function Modal() {
+import Modal from 'react-modal';
+import style from './Modal.module.css'
+Modal.setAppElement("#root");
+function Modals({isOpen,children,contentLabel,setIsOpen}) {
   return (
-    <div>M</div>
+    <div>
+      <Modal
+        isOpen={isOpen}
+        onRequestClose={(prev) => {setIsOpen(!prev)}}
+        className={style.modal}
+        contentLabel={contentLabel}
+      >
+        {children}
+      </Modal>
+    </div>
   )
 }
 
-export default Modal
+export default Modals
