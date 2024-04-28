@@ -6,8 +6,8 @@ function Card({ heading, value, handleClick, type }) {
     <div className={style.card}>
       {heading && <h2 className={style.heading}>{heading}:<span className={type===cardType.Balance?style.balance:type===cardType.Expences?style.expenses:""}> {value}</span></h2>}
       <div className={style.btn}>
-        {type===cardType.Expences&&<Button varient={btnVarient.RED} onClick={handleClick}>+ Add Expense</Button> }
-        {type===cardType.Balance&&<Button varient={btnVarient.GREEN} onClick={handleClick}>+ Add Income</Button> }
+        {type===cardType.Expences&&<Button varient={btnVarient.RED} handleClick={handleClick}>+ Add Expense</Button> }
+        {type===cardType.Balance&&<Button varient={btnVarient.GREEN} handleClick={handleClick}>+ Add Income</Button> }
       </div>
     </div>
   )
