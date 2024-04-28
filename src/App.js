@@ -193,6 +193,17 @@ function App() {
         <Graph heading={"Top Expense"} data={data}>
         </Graph>
       </Section>
+      <Form type={Formtype.AddExpence} data={expense} setData={setExpense} handleCancel={() => {
+            setIsAddExpenseModalOpen(false); setExpense({
+              id: null,
+              title: "",
+              amount: null,
+              category: "",
+              date: "",
+            })
+          }}
+            handleSubmit={addExpense} >
+          </Form>
     </div>
   );
 }
