@@ -25,3 +25,30 @@
     /* background-color: white; */
     border-radius: 15px;
 }
+
+
+
+
+.xpcontainer {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}.xpbtn{
+    background: #00a278 !important;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px none ;
+}
+.PgNo {
+    height: 20px;
+    background: #00a278 !important;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}

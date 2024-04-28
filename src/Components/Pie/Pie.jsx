@@ -1,15 +1,9 @@
 import React from 'react'
 import style from './Pie.module.css'
 import { PieChart, Pie, Cell } from "recharts";
+import Indicator from '../Indicator/Indicator';
 
-const data = [
-  { name: "Group A", value: 400 },
-  { name: "Group B", value: 300 },
-  { name: "Group C", value: 300 },
-  // { name: "Group D", value: 200 },
-];
-
-const COLORS = ["#FF9304", "#A000FF", "#FDE006"];
+const COLORS = ["#FF9304", "#A000FF", "#FDE006","RED"];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -37,8 +31,9 @@ const renderCustomizedLabel = ({
     </text>
   );
 }
-function PieC({ children }) {
 
+function PieC({ children,data }) {
+  
   return (
     <div className={style.pie}>
       <PieChart width={300} height={300}>
@@ -54,10 +49,11 @@ function PieC({ children }) {
           stroke='none'
         >
           {data.map((entry, index) => (
-            <Cell key={`cell-${entry.name}`} fill={COLORS[index % COLORS.length]} />
+            <Cell key={`cell-${entry.catagory}`} fill={COLORS[index % COLORS.length]} />
           ))}
         </Pie>
       </PieChart>
+          <Indicator data={[{ text: "Food", color: "#A000FF" }, { text: "Inter", color: "#FF9304" }]}></Indicator>
       {children}
     </div>
   )

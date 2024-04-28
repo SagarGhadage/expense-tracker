@@ -4,6 +4,7 @@ button {
     width: inherit;
     border-radius: 1rem;
     border: none;
+    padding: 5%;
 }
 
 .YELLOW {
@@ -23,7 +24,7 @@ button {
 
 }
 
-.LIGHTGREY {
+.LITEGREY {
     background: linear-gradient(0deg, #E3E3E3, #E3E3E3);
     box-shadow: 0px 4px 4px 0px #00000040;
 }

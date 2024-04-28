@@ -2,7 +2,7 @@
   background: #3B3B3B;
   height: 100%;
   width: 100%;
-  padding: 2.5%;
+  padding: 0.9% 2.5%;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@
   font-size: 2rem;
   font-weight: 700;
   line-height: 36.77px;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.9rem 0;
   text-align: left;
   color: #FFFFFF;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Button.module.css"
-function Button({ varient, handleClick, btnText, children }) {
+function Button({ varient, handleClick, btnText, children ,type}) {
   console.log(varient)
   switch (varient) {
     case btnVarient.GREEN:
@@ -16,7 +16,7 @@ function Button({ varient, handleClick, btnText, children }) {
       )
     case btnVarient.LITEGREY:
       return (
-        <button className={style.LITEGREY} onClick={handleClick}>{btnText ? btnText : children ? children : "Button"} </button>
+        <button type={type} className={style.LITEGREY} onClick={handleClick}>{btnText ? btnText : children ? children : "Button"} </button>
       )
     default: return (
       <button className={style.defaultBtn} onClick={handleClick}>{btnText ? btnText : children ? children : "Button"} </button>
