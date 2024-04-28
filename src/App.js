@@ -91,7 +91,7 @@ function App() {
     setBalance(bal)
     localStorage.setItem("expenses", JSON.stringify([...newExps, expense]));
     setExpense({
-      id: 0,
+      id: 0 ,
       title: "",
       amount: null,
       category: "",
