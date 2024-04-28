@@ -20,10 +20,27 @@ select {
     box-shadow: 0px 4px 4px 0px #00000040;
     background-color: #FBFBFB;
 }
-
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
 .btns {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    /* width: 223px; */
+    width: 100%;
+    /* padding: 10%; */
     height: 20%;
+    margin: 3% 0;
+}
+.ybtn{
+    width: 145px;
+height: 51px;
+margin-left: 3%;
+margin: 0 5% 0 3%;
+}
+.gbtn{
+    width: 112px;
+height: 51px;
 }

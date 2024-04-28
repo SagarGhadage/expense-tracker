@@ -22,7 +22,11 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               required
             />
             <div className={style.btns}>
+              <div className={style.ybtn}>
               <Button varient={btnVarient.YELLOW} handleClick={handleSubmit} type={"submit"} >Add Balance</Button>
+              </div>
+              
+              <div className={style.gbtn}>
               <Button
                 varient={btnVarient.LITEGREY}
                 type="reset"
@@ -30,6 +34,7 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               >
                 Cancel
               </Button>
+              </div>
             </div>
           </form>
         </div>
@@ -80,9 +85,12 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               required
             />
             <div className={style.btns}>
+              <div className={style.ybtn}>
               <Button varient={btnVarient.YELLOW} type={"submit"}>
                 Add Expense
               </Button>
+              </div>
+              <div className={style.gbtn}>
               <Button
                 varient={btnVarient.LITEGREY}
                 type="button"
@@ -90,6 +98,7 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               >
                 Cancel
               </Button>
+              </div>
             </div>
           </form>
         </div>
@@ -139,7 +148,10 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               required
             />
             <div className={style.btns}>
+            <div className={style.ybtn}>
               <Button varient={btnVarient.YELLOW}  type={"submit"}>Save</Button>
+              </div>
+              <div className={style.gbtn}>
               <Button
                 varient={btnVarient.LITEGREY}
                 type="button"
@@ -147,6 +159,7 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               >
                 Cancel
               </Button>
+              </div>
             </div>
           </form>
         </div>
