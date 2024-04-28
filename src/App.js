@@ -84,19 +84,21 @@ function App() {
     // localStorage.setItem("balance", JSON.stringify(balance));
   }
 
-  const handleEdit =()=>{
+  const handleEdit =(e)=>{
+    e.preventDefault()
     let newExps=expenses.filter((e)=>e.id!==expense.id)
     let bal=Number(balance)+Number(expense?.amount?expense.amount:0)
     setExpenses([...newExps,expense])
     setBalance(bal)
     localStorage.setItem("expenses", JSON.stringify([...newExps, expense]));
     setExpense({
-      id: 0 ,
+      id: 0,
       title: "",
       amount: null,
       category: "",
       date: "",
-    })  
+    })
+    setIsEditExpenseM(false)
   }
   //sideEffects
   useEffect(() => {
