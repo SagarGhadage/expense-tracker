@@ -22,7 +22,8 @@ select {
 }
 
 .btns {
-    min-width: 200px;width: fit-content;
+    min-width: 250px;
+    width: fit-content;
     height: 51px;
     display: flex;
     /* justify-content: space-between;     */
