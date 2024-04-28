@@ -21,8 +21,8 @@ function Graph({heading,data}) {
       <div className={style.Graph}>
         <div className={style.bars}>
           {per.map((ele)=>
-          <div key={ele.catagory}className={style.barContainer}>
-            <div className={style.barHeading}>{ele.catagory}</div>
+          <div key={ele.name}className={style.barContainer}>
+            <div className={style.barHeading}>{ele.name}</div>
             <div className={style.barWraper}>
             <div className={style.bar} style={{width:`${ele.value}%`}}></div>
             </div>
