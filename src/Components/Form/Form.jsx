@@ -22,6 +22,7 @@ function Form({ children, data, type, handleSubmit, setData, handleCancel }) {
               required
             />
             <div className={style.btns}>
+              <button>Hi</button>
               <Button varient={btnVarient.RED} handleClick={handleSubmit} type={"submit"} >Add Balance</Button>
               <Button
                 varient={btnVarient.LITEGREY}
