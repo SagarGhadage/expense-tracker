@@ -145,7 +145,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='App-header'>Expense Tracker</h1>
-
+      
       <Section varient={sectionType.BG_Grey}>
         <Card heading={"Wallet Balance"} value={`₹${balance-totalExp(expenses)}`} type={cardType.Balance} handleClick={setIsIncomeModalOpen} ></Card>
         <Card heading={"Expences"} value={`₹${totalExp(expenses)}`} type={cardType.Expences} handleClick={setIsAddExpenseModalOpen}></Card>
