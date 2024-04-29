@@ -53,7 +53,7 @@ function PieC({ children,data }) {
           ))}
         </Pie>
       <Tooltip />
-        <Legend className="chart-legend" />
+        <Legend className="chart-legend" style={{margin:100 }} />
       </PieChart> 
           {/* <Indicator data={[{ text: "Food", color: "#A000FF" }, { text: "Inter", color: "#FF9304" }]}></Indicator> */}
       {children}

@@ -122,11 +122,14 @@
     color: white;
     width: 100%;
     height: 100%;
-}.btngrp{
+}
+
+.btngrp {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .PgNo {
     height: 20px;
     background: #00a278 !important;
@@ -138,4 +141,54 @@
     align-items: center;
     justify-content: center;
     width: 30px;
+}
+
+@media only screen and (min-width: 314px) {
+    .pagination {
+        min-height: 330px;
+        min-width: 55%;
+        width: 100%;
+        margin: 0.5rem 0;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .container{width: 100%;}
+}
+
+@media only screen and (min-width: 512px) {
+    .pagination {
+        min-height: 330px;
+        min-width: 55%;
+        width: 100%;
+        margin: 0.5rem 0;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .container{width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    .pagination {
+        min-height: 330px;
+        min-width: 55%;
+        width: 100%;
+        margin: 0.5rem 0;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .container{width: 100%;}
+
+}
+
+@media only screen and (min-width: 992px) {
+    .pagination {
+        min-height: 330px;
+        min-width: 55%;
+        width: 100%;
+        margin: 0.5rem 0;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .container{width: 55%;}
 }

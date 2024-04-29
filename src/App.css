@@ -38,10 +38,12 @@
   color: beige;
   font-size: x-large;
   background: #000;
+}.recharts-legend-wrapper{
+  margin: -6% 0;
 }
 .modal{
-  top: 50%;
+  top: 50vh;
   left: 50%;
-  right: '';
+  /* right: ''; */
   
 }

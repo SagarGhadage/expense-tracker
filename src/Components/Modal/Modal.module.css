@@ -1,6 +1,6 @@
 .modal {
     position: relative;
-    top: 50%;
+    top: 50vh;
     left: 50%;
     right: auto;
     bottom: auto;
