@@ -15,15 +15,15 @@ function Pagination({ data, children, heading, onEditClick,onDeleteClick, setExp
   const [current, setCurr] = useState(1)
   console.log(data)
   const handlePage = (e) => {
-    // let len = employees.length
-    // if (current + Number(e.target.value) < 1) {
-    //   setCurr(1)
-    // } else if (current + Number(e.target.value) > Math.floor(len / 10)) {
-    //   setCurr(Math.floor(len / 10) < len ? Math.ceil(len / 10) : Math.floor(len / 10))
-    // } else {
-    //   setCurr(current + Number(e.target.value))
-    // }
-    setCurr(current + Number(e))
+    let len = data.length
+    if (current + Number(e) < 1) {
+      setCurr(1)
+    } else if (current + Number(e) > Math.floor(len / 3)) {
+      setCurr(Math.floor(len / 3) < len ? Math.ceil(len / 3) : Math.floor(len / 3))
+    } else {
+      setCurr(current + Number(e))
+    }
+    // setCurr(current + Number(e))
   }
   const icon = (catagory) => {//debugger
     switch (catagory) {
